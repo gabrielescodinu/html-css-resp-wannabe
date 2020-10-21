@@ -1,3 +1,4 @@
+
 .row {
   width: 992px;
   margin-left: auto;
@@ -70,4 +71,13 @@ img {
 
 .clear {
   clear: both;
+}
+
+/* iphone x screen */
+
+@media screen and (max-width: 374px) {
+  .row {
+    display: inline block;
+    width: 100%;
+  }
 }
